@@ -3,6 +3,12 @@ body {
     margin: 0;
 }
 
+section {
+    display: flex;
+    padding-bottom: 2%;
+    margin-bottom: 80px;
+}
+
 h1 {
     font-size: 50px;
 }
@@ -28,10 +34,29 @@ h1 {
     padding: 10px 40px;
     background-image: linear-gradient(skyblue, blue);
     color: brown;
+    text-align: center;
 }
 
 #main-sec {
     background-image: url(../images/top-banner.png);
     background-repeat: no-repeat;
     overflow: hidden;
+}
+
+#dream-sec {
+    background-image: url('../images/dream-bg.png');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: right;
+}
+
+#dream-sec div {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+#dream-sec div img {
+    width: 80%;
 }
