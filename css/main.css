@@ -1,3 +1,37 @@
-*{
+body {
     font-family: 'Kanit', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.hd-text {
+    color: blue;
+}
+
+#main-sec div {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.image-side img {
+    width: 70%;
+}
+
+.btn-hr {
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: 10px 40px;
+    background-image: linear-gradient(skyblue, blue);
+    color: brown;
+}
+
+#main-sec {
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
