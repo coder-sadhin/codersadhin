@@ -104,3 +104,10 @@ h1 {
 #bb-dev {
     border-left: 7px solid rgb(223, 10, 173);
 }
+
+footer {
+    text-align: center;
+    color: aqua;
+    border-radius: 10px;
+    background-color: grey;
+}
