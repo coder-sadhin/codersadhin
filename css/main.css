@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-section {
+.section-flexible {
     display: flex;
     padding-bottom: 2%;
     margin-bottom: 80px;
@@ -59,4 +59,48 @@ h1 {
 
 #dream-sec div img {
     width: 80%;
+}
+
+.exp-h {
+    margin-left: 2%;
+}
+
+.section-flexible div {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.exp-item {
+    box-shadow: 10px 10px 40px gray;
+    width: 45%;
+    margin-left: 20px;
+    margin-right: 5%;
+    padding-left: 2%;
+    border-radius: 10px;
+}
+
+.exp-item h1 {
+    font-size: 30px;
+}
+
+.exp-item h3 {
+    color: tomato;
+}
+
+#experience-area-design {
+    background-image: url('../images/exp-bg.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#fu-stc-dev {
+    border-left: 7px solid rgb(6, 144, 236);
+    width: 100%;
+}
+
+#bb-dev {
+    border-left: 7px solid rgb(223, 10, 173);
 }
